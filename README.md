@@ -1,9 +1,9 @@
 SelfProtectedProject
 ====================
 
-Self-Adaptative systems semestre project 2014
+Self-Adaptative systems - semester project 2014
 
-Android application that encodes contextual infromation (GPS, surrounding sound, networks, bluetooth...) as encryption key to encode and decode files.
+Android application that uses contextual infromation (GPS, surrounding sound, networks, bluetooth...) as encryption key to encode and decode files.
 
 Features : 
 - Android GUI to write and save text files
