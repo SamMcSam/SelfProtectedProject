@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gpsaffichage.MainActivity" >
+
+    <item
+        android:id="@+id/action_gps"
+        android:orderInCategory="100"
+        android:title="@string/action_gps"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_network"
+        android:orderInCategory="100"
+        android:title="@string/action_network"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_device"
+        android:orderInCategory="100"
+        android:title="@string/action_device"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>
