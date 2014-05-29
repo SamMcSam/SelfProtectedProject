@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Radio to be changed to checkbox instead when more network option will be added? -->
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip"> 
+    
+   <RadioButton
+       android:id="@+id/radio_wifi_current"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:checked="true"
+       android:text="@string/dialog_network_radio_current_wifi" />
+			    		             
+</RadioGroup>

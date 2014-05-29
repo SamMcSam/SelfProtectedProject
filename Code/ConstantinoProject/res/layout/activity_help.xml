@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="selfadaptative.constantino.smartcontentproject.ActivityHelp"
+    tools:ignore="MergeRootFrame">
+    
+    <LinearLayout 
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    
+        <TextView
+        android:id="@+id/titledescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help0" />
+        
+        <TextView
+        android:id="@+id/titleHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help_title" />
+        
+        <TextView
+        android:id="@+id/sectionHelp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help_section1"
+    	android:textStyle="bold" />
+        
+    	<TextView
+        android:id="@+id/textHelp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help1" />
+ 
+   		<TextView
+	       android:id="@+id/textHelp2"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="@string/text_help2"
+	       android:drawableLeft="@drawable/ic_protected_file" />
+   		
+   		<TextView
+	       android:id="@+id/textHelp3"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="@string/text_help3"
+	       android:drawableLeft="@drawable/ic_edit" />
+   		
+   		<TextView
+	       android:id="@+id/textHelp4"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="@string/text_help4"
+	       android:drawableLeft="@drawable/ic_unkown" />
+    
+   		<TextView
+        android:id="@+id/sectionHelp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help_section2"
+    	android:textStyle="bold" />
+        
+    	<TextView
+        android:id="@+id/textHelp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help5" />
+        
+    	<TextView
+        android:id="@+id/textHelp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help6" />
+    
+   		<TextView
+        android:id="@+id/sectionHelp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help_section3"
+    	android:textStyle="bold" />
+        
+    	<TextView
+        android:id="@+id/textHelp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help7" />
+        
+    	<TextView
+        android:id="@+id/textHelp8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help8" />
+        
+    	<TextView
+        android:id="@+id/textHelp9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help9" />
+        
+    	<TextView
+        android:id="@+id/textHelp10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help10" />
+        
+    	<TextView
+        android:id="@+id/textHelp11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help11" />
+        
+    	<TextView
+        android:id="@+id/textHelp12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help12" />
+        
+    	
+    	<TextView
+        android:id="@+id/sectionHelp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help_section4"
+    	android:textStyle="bold" />
+    	
+    	<TextView
+        android:id="@+id/textHelp13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help13" />
+        
+    	<TextView
+        android:id="@+id/textHelp14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help14" />
+        
+    	<TextView
+        android:id="@+id/textHelp15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_help15" />
+   		
+   		
+	</LinearLayout>
+
+</ScrollView>
+

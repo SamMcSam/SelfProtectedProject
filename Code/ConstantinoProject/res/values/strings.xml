@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartContent</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="action_new">New Document</string>
+    <string name="description_file">File</string>
+    <string name="menu_open">Open File</string>
+    <string name="menu_delete">Delete File</string>
+    <string name="new_content">New Content</string>
+    <string name="read_content">Read Content</string>
+    <string name="edit_content">Edit Content</string>
+    <string name="action_encode">Encode File</string>
+    <string name="action_save">Save as Draft</string>
+    <string name="action_clear">Clear</string>
+    <string name="title">Title</string>
+    <string name="body">Content</string>
+    <string name="title_activity_encode">Select Policies</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_about">About</string>
+    <string name="text_about">SmartContent Viewer 1.0 \n
+        ------------------------------- \n
+        Self-adaptative Systems project \n
+        Spring 2014 \n\n
+        by Samuel Constantino \n
+        samuel.constantino@etu.unige.ch	</string>
+    
+</resources>

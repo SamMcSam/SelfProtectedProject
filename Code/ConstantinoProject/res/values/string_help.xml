@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        
+    <string name="text_help0">SmartContent are files protected by contextual information. With this app you can create and open such files. 
+        Contextual information can be information concerning the user\'s location (GPS), network (connected wifi) or also device specificities. 
+        You can also protect the file with a password.\n</string>
+    
+    <string name="text_help_title">Here\'s how to use the viewer \n</string>
+    <string name="text_help_section1">Main menu : \n</string>
+    <string name="text_help1">
+        Create a new file or a draft by tapping on the "+" ("New Document") button in the action bar\n
+        Open files by tapping on them and selecting "Open File", delete files by selecting "Delete File"\n
+	</string>
+	<string name="text_help2">This is a protected SmartContent file\n</string>
+	<string name="text_help3">This is a draft of a SmartContent file\n</string>
+	<string name="text_help4">This is an unsupported file and can\'t be open with this software\n</string>
+	<string name="text_help_section2">Creating a file : \n</string>
+	<string name="text_help5">
+        1) Write the name and content of the file in the appropriate fields\n
+        2) Click on the key icon ("Encoding file") to launch the encrypting procedure\n
+	</string>
+	<string name="text_help6">
+		Saving as draft will create a non-encrypted file that you can modify later on.\n
+		Attention : draft files do NOT contain any contextual information or policy. To save those you must go through the full encoding procedure described below.\n
+	</string>
+	<string name="text_help_section3">Encrypting a file : \n</string>
+	<string name="text_help7">
+        In the encrypting window, you can select the different policies and contexts needed to protect your file with. \n
+        The "Current Context" part shows you what contexts are currently available to use. Make sure you the different components needed are enabled (network, gps) if they don\'t appear.\n
+	</string>
+	<string name="text_help8">Action : select what kind of action will be permitted on your file (note : in "Read and write", users will be able to modify policies!)\n</string>
+	<string name="text_help9">Password : enter a password that users will be prompted to enter\n</string>
+	<string name="text_help10">GPS Coordinates : select a range in which the file will be openable\n</string>
+	<string name="text_help11">Network connections : select network informations needed to open the file\n</string>
+	<string name="text_help12">Device informations : select informations from your device needed to open the file\n</string>
+	<string name="text_help_section4">Decoding a file : \n</string>
+	<string name="text_help13">
+        When opening a SmartFile, the viewer asks the file what kind of contextual informations are needed to open it.\n
+        If your current contextual informations correspond to the ones in which the file was encrypted with, you will be able to open the file.\n
+	</string>
+	<string name="text_help14">
+        Context retrieval might take some time. Make sure that all the necessary components are enabled (gps, network, wifi).\n
+	</string>
+	<string name="text_help15">
+        If your contextual information doesn\'t correspond to the one asked by the file, opening it will be cancelled. Please make sure you meet the necessary conditions to open this file. If not, contact the other of the specific file to learn them.\n
+	</string>
+    
+</resources>

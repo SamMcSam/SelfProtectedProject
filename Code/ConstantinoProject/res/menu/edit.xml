@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="selfadaptative.constantino.smartcontentproject.ActivityContent" >
+
+    <item
+        android:id="@+id/action_encode"
+        android:orderInCategory="100"
+        android:title="@string/action_encode"
+        android:icon="@drawable/ic_action_accounts"
+        app:showAsAction="always"
+        />
+    
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="@string/action_save"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="@string/action_clear"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"
+        app:showAsAction="never"/>
+    
+</menu>

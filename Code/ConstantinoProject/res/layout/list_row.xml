@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/iconSecure"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_protected_file"
+        android:contentDescription="@string/description_file"
+    />
+    
+    <ImageView
+        android:id="@+id/iconDraft"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_edit"
+        android:contentDescription="@string/description_file"
+    />
+    
+    <ImageView
+        android:id="@+id/iconUnknown"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_unkown"
+        android:contentDescription="@string/description_file"
+    />
+	    
+	<TextView android:id="@+id/text1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="23sp">
+	</TextView>
+
+</LinearLayout>

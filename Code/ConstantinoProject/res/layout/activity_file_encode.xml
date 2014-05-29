@@ -1,0 +1,255 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="selfadaptative.constantino.smartcontentproject.ActivityAbout"
+    tools:ignore="MergeRootFrame" 
+    android:focusable="false">
+
+    <RelativeLayout        
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+	    <!-- Context -->
+	
+		<RelativeLayout
+	        android:id="@+id/layoutContext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/encode_header_context" />
+		
+		    <View
+		        android:id="@+id/line1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/textView1"
+		        android:background="@android:color/darker_gray" />
+		    
+		    <RelativeLayout
+	        android:id="@+id/layoutInfoContext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/line1" 
+	        android:layout_margin="10dp">
+	       
+		        <TextView
+			       android:id="@+id/textTime"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:text="@string/encode_display_time" />
+		        <TextView
+			       android:id="@+id/textDate"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_below="@+id/textTime"
+			       android:text="@string/encode_display_date" />
+		        <TextView
+			       android:id="@+id/textGPSLat"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+		        android:layout_below="@+id/textDate"
+			       android:text="@string/encode_display_gps_latitude" />
+		        <TextView
+			       android:id="@+id/textGPSLong"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+		        android:layout_below="@+id/textGPSLat"
+			       android:text="@string/encode_display_gps_longitude" />
+		        <TextView
+			       android:id="@+id/textNetworkWIFI"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+		        android:layout_below="@+id/textGPSLong"
+			       android:text="@string/encode_display_network_wifi" />
+		        <TextView
+			       android:id="@+id/textDevManuf"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+		        android:layout_below="@+id/textNetworkWIFI"
+			       android:text="@string/encode_display_device_manufacturer" />
+		        <TextView
+			       android:id="@+id/textDevMod"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+		        android:layout_below="@+id/textDevManuf"
+			       android:text="@string/encode_display_device_model" />
+		        
+		        
+	        </RelativeLayout>
+		    
+	    </RelativeLayout>
+	
+	    <!-- Policy -->
+	
+	    <RelativeLayout
+	        android:id="@+id/layoutPolicy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/layoutContext"
+	        android:layout_centerHorizontal="true" >
+	        
+	        <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/encode_header_policy" />
+		
+		    <View
+		        android:id="@+id/line2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/textView2"
+		        android:background="@android:color/darker_gray" />
+	        
+		    
+		    <RadioGroup
+	        android:id="@+id/layoutRadio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/line2"
+	        android:layout_centerHorizontal="true" 
+	        android:layout_margin="10dp"
+	        android:orientation='horizontal'>
+			    
+		        <RadioButton
+			        android:id="@+id/radio_read"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/encode_policies_read"
+			        android:checked="true" 
+			        android:onClick="onRadioButtonClicked"/>
+		        <RadioButton android:id="@+id/radio_write" 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content" 
+		            android:text="@string/encode_policies_write"
+		            android:onClick="onRadioButtonClicked"/>
+			    
+		    </RadioGroup>
+	        
+	    </RelativeLayout>    
+	    
+	  <!--Restrictions--> 
+	    
+	    <RelativeLayout
+	        android:id="@+id/layoutRestrictions"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/layoutPolicy">
+		    
+		    <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/encode_header_restriction" />
+		
+		    <View
+		        android:id="@+id/line3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/textView3"
+		        android:background="@android:color/darker_gray" />
+	    
+		    <!-- Selection of each type of context -->
+		    
+		    <RelativeLayout
+	        android:id="@+id/options"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/line3">
+			    
+		        <RelativeLayout
+		        android:id="@+id/optionPassword"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dp">
+				    
+		            <CheckBox
+			        android:id="@+id/checkboxPassword"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/encode_rule_password"
+			        android:checked="false"
+					android:onClick="onCheckboxClicked"/>
+	
+				</RelativeLayout>
+		        
+		        <RelativeLayout
+		        android:id="@+id/optionGPS"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/optionPassword"
+		        android:layout_margin="10dp">
+				    
+		            <CheckBox
+			        android:id="@+id/checkboxGPS"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/encode_rule_gps"
+			        android:checked="false" 
+			        android:onClick="onCheckboxClicked"/>
+		            
+				</RelativeLayout>
+				
+		         <RelativeLayout
+		        android:id="@+id/optionNetwork"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/optionGPS"
+		        android:layout_margin="10dp">
+				    
+		             <CheckBox
+			        android:id="@+id/checkboxNetworkWIFI"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/encode_rule_network"
+			        android:checked="false" 
+			        android:onClick="onCheckboxClicked"/>
+		             
+				</RelativeLayout>
+		        
+		        <RelativeLayout
+		        android:id="@+id/optionsDevice"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/optionNetwork"
+		        android:layout_margin="10dp">
+				    
+		            <CheckBox
+			        android:id="@+id/checkboxDevice"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/encode_rule_device"
+			        android:checked="false" 
+			        android:onClick="onCheckboxClicked"/>
+		            
+				</RelativeLayout>
+		         
+			</RelativeLayout>
+		    
+		</RelativeLayout>
+		
+	    <!-- Button -->
+	    
+	    <Button
+	        android:id="@+id/confirm"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/layoutRestrictions"
+	        android:text="@string/encode_button" 
+	        android:enabled="false"
+	        android:onClick="encodeAndSave"/>
+	    
+    </RelativeLayout>
+    
+</ScrollView>

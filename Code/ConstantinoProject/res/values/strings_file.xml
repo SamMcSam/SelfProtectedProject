@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string name="extension_file">.smart</string>
+    <string name="extension_draft">.draft</string>
+    
+    <string name="prologue_file">smartdocument</string>
+    <string name="prologue_draft">smartdocument_draft</string>
+    
+    <string name="policy_action_type_write">write</string>
+    <string name="policy_action_type_read">read</string>
+    
+    <string name="content_separator">content</string>
+    
+    <!-- other -->
+    
+    <string name="empty_title">NEW_DOC</string>
+    <string name="empty_content">[NO CONTENT]</string>
+    
+    <string name="policy_gps_separator">#</string>
+    <integer name="max_scale">100</integer>
+    
+</resources>

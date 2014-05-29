@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- FOR ENCODING ACTIVITY -->    
+    
+    <string name="encode_header_context">Current Context</string>
+    <string name="encode_header_policy">Select action permitted</string>
+	<string name="encode_header_restriction">Select needed context</string>
+    
+	<string name="encode_display_date">Date:</string>
+	<string name="encode_display_time">Time:</string>
+	<string name="encode_display_gps_latitude">Latitude:</string>
+	<string name="encode_display_gps_longitude">Longitude:</string>
+	<string name="encode_display_network_wifi">Wifi:</string>
+	<string name="encode_display_device_manufacturer">Manufacturer:</string>
+	<string name="encode_display_device_model">Model:</string>
+
+	<string name="encode_rule_password">Password</string>
+	<string name="encode_rule_gps">GPS Coordinates</string>
+	<string name="encode_rule_network">Network connections</string>
+	<string name="encode_rule_device">Device informations</string>
+	
+    <string name="encode_policies_read">Read-only</string>
+    <string name="encode_policies_write">Read and write</string>
+    
+    <string name="encode_button">Encode File</string>
+
+    <string name="encoding_cancelled">Encoding cancelled</string>
+    <string name="encoding_done">Encoded file : </string>
+    
+    <!-- FOR DECODING ACTIVITY -->
+    
+    <string name="title_activity_activity_file_decode">SmartContent decoding</string>
+	<string name="decoding_wait">Asking file to open. Please wait&#8230;</string>
+	<string name="decoding_impossible">Unautorized action in this context</string>
+    
+    
+</resources>
