@@ -104,17 +104,6 @@ public class MainActivity extends Activity {
 
 		String string = "Hello world!";
 		
-		/*
-		FileOutputStream outputStream;
-
-		try {
-		  outputStream = openFileOutput(filename, Context.MODE_WORLD_READABLE);
-		  outputStream.write(string.getBytes());
-		  outputStream.close();
-		} catch (Exception e) {
-		  e.printStackTrace();
-		}
-		*/
 		try{
 			FileWriter writer = new FileWriter(this.getAlbumStorageDir("MySmartContent") + "/" + filename + ".smart", false);
 			writer.write(string);
@@ -147,6 +136,7 @@ public class MainActivity extends Activity {
 	    return false;
 	}
 	
+	// Get the directory
 	@SuppressLint("NewApi")
 	public File getAlbumStorageDir(String albumName) {
 	    // Get the directory for the user's public pictures directory. 
