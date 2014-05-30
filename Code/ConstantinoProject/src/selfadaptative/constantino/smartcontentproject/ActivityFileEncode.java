@@ -12,9 +12,7 @@ package selfadaptative.constantino.smartcontentproject;
 
 import java.io.Serializable;
 
-import android.annotation.TargetApi;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.view.Menu;
@@ -68,7 +66,7 @@ public class ActivityFileEncode extends ActivityFile {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_file_encode);
-		setupActionBar();
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		viewDate = (TextView) findViewById(R.id.textDate);
 		viewTime = (TextView) findViewById(R.id.textTime);
@@ -105,14 +103,6 @@ public class ActivityFileEncode extends ActivityFile {
     	dialogGPS = new DialogGPS();
     	
 	}	
-
-	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
-	private void setupActionBar() {
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-			// Show the Up button in the action bar.
-			getActionBar().setDisplayHomeAsUpEnabled(true);
-		}
-	}
 	
 	//---------------------------------------------------------
   	// Encoding action

@@ -24,7 +24,7 @@ public class ActivityFileDecode extends ActivityFile {
 
 	private final static int DELAY_WAITING = 1000;
 	private final static int WAITING_MAX_NETWORK = 5;
-	private final static int WAITING_MAX_GPS = 10;
+	private final static int WAITING_MAX_GPS = 20;
 	
 	private SmartFile file = null;
 	
@@ -51,7 +51,7 @@ public class ActivityFileDecode extends ActivityFile {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_file_decode);
-		getActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		file = (SmartFile) this.getIntent().getSerializableExtra(ActivityContent.BUNDLE_FILE);
 		

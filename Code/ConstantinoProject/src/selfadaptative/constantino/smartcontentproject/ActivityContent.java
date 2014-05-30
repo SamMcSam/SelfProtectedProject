@@ -37,7 +37,7 @@ public class ActivityContent extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         
         setContentView(R.layout.activity_content);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         
         //get file from extra
     	this.getExtras();
