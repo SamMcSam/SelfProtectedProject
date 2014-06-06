@@ -42,7 +42,7 @@
         Context retrieval might take some time. Make sure that all the necessary components are enabled (gps, network, wifi).\n
 	</string>
 	<string name="text_help15">
-        If your contextual information doesn\'t correspond to the one asked by the file, opening it will be cancelled. Please make sure you meet the necessary conditions to open this file. If not, contact the other of the specific file to learn them.\n
+        If your contextual information doesn\'t correspond to the one asked by the file, opening it will be cancelled. Please make sure you meet the necessary conditions to open this file. If not, contact the author of the specific file to learn them.\n
 	</string>
     
 </resources>
