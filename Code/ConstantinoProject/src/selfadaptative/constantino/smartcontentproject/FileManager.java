@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class FileManager {
 	
-	//Files will be saved in Documents/MySmartContent
+	//UPDATE !! now files are in /MySmartContent and not /Documents/MySmartContent because Documents is NOT available in API below level 19!!!!!
 	public static final String ALBUM_NAME = "MySmartContent";
 	
 	/* Checks if external storage is available for read and write */
@@ -42,7 +42,8 @@ public class FileManager {
 	// Get the directory
 	@SuppressLint("NewApi")
 	public static File getAlbumStorageDir(Activity activity) {
-	    File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), ALBUM_NAME);
+	    //File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), ALBUM_NAME); //api level 19
+	    File file = new File(Environment.getExternalStoragePublicDirectory(""), ALBUM_NAME); 
 	    
 	    //creates directory if not already
 	    if (!file.mkdirs()) {
